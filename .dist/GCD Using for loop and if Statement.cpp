@@ -4,9 +4,8 @@ int main()
     int n1, n2, i, gcd;
 
     printf("Enter first integers: ");
-    scanf("%d ", &n1);
-    printf("Enter second integers: ");
-    scanf("%d ", &n2);
+    scanf("%d %d", &n1,&n2);
+   
 
     for(i=1; i <= n1 && i <= n2; ++i)
     {
