@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    float a,b,c,root1,root2,disk;
+    float d,b,c,root1,root2,disk;
     printf("Enter a value : ");
-    scanf("%f",&a);
+    scanf("%f",&d);
     printf("Enter b value : ");
     scanf("%f",&b);
     printf("Enter c value : ");
