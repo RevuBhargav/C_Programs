@@ -25,6 +25,8 @@ int main(){
         case 7 :
         printf("sat");
         break;
+        default :
+        printf("invalid");
         
     }
 }
