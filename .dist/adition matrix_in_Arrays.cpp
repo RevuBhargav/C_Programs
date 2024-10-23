@@ -5,47 +5,47 @@ int main(){
     scanf("%d %d",&r1,&c1);
      printf("enter the two  matrix of B :");
     scanf("%d %d",&r2,&c2);
-    if(r1 == c1 && r2 == r2){
-       printf("Enter elements in %d in matrix A\n : ",r1*c1);
+    if(r1 == r2 && c1 == c2){
+       printf("Enter elements in %d * %d in matrix A\n ",r1,c1);
         for(i=0;i<r1;i++){        
-        for(j=0;j<c1;j++){
-           scanf("%d \n",&a[i][j]);
+            for(j=0;j<c1;j++){
+                scanf("%d",&a[i][j]);
 
+            }
         }
-    }
-    printf("Enter elements in %d in matrix B\n : ",r2*c2);
+        printf("Enter elements in %d * %d in matrix B\n ",r2,c2);
         for(i=0;i<r2;i++){        
-        for(j=0;j<c2;j++){
-           scanf("%d ",&b[i][j]);
+            for(j=0;j<c2;j++){
+            scanf("%d",&b[i][j]);
 
+            }
         }
-    }
-    printf("elements in matrix A\n : ");
+        printf("elements in matrix A\n");
         for(i=0;i<r1;i++){        
-        for(j=0;j<c1;j++){
-           printf("%d \n ",a[i][j]);
+            for(j=0;j<c1;j++){
+            printf("%d \n ",a[i][j]);
 
+            }
         }
-    }
-    printf("elements in matrix B\n : ");
+        printf("elements in matrix B\n");
         for(i=0;i<r2;i++){        
-        for(j=0;j<c2;j++){
-           printf("%d \n",b[i][j]);
+            for(j=0;j<c2;j++){
+            printf("%d \n",b[i][j]);
 
+            }
         }
-    }
-    for(i=0;i<r1;i++){
-        for(j=0;j<c1;j++){
-            c[i][j] = a[i][j] + b[i][j];
+        for(i=0;i<r1;i++){
+            for(j=0;j<c1;j++){
+                c[i][j] = a[i][j] + b[i][j];
+            }
         }
-    }
-    printf("elements in matrix c\n : ");
-        for(i=0;i<r2;i++){        
-        for(j=0;j<c2;j++){
-           printf("%d \n",c[i][j]);
+        printf("elements in matrix c\n ");
+        for(i=0;i<r1;i++){        
+            for(j=0;j<c1;j++){
+            printf("%d \n",c[i][j]);
 
+            }
         }
-    }
     
     }else{
         printf("matrix addition is not possible \n");

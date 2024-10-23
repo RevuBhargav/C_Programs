@@ -28,10 +28,10 @@ int main(){
     printf("sum of two matrix \n");
      for(i=0;i<n1;i++){
         for(j=0;j<n2;j++){
-        printf("%d", sum[i][j]);
-      if (j == n2 - 1) {
-        printf("\n\n");
-      }
+            printf("%d  ", sum[i][j]);
+      
+        }
+        printf("\n");
     }
-}
+
 }
