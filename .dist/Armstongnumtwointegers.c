@@ -13,8 +13,9 @@ int main(){
             temp/=10;
 
         }
-        if(sum == num)
-        printf("%d\n",num);
+        
     }
-    
+    if(sum == num){
+        printf("%d\n",num);
+}
 }
